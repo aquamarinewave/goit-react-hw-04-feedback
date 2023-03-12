@@ -14,11 +14,11 @@ const App = () => {
     const { name } = event.currentTarget;
 
     switch (name) {
-      case 'good': setGood(good + 1);
+      case 'good': setGood(prevState => prevState + 1);
         break;
-      case 'neutral': setNeutral(neutral + 1);
+      case 'neutral': setNeutral(prevState => prevState + 1);
         break;
-      case 'bad': setBad(bad + 1);
+      case 'bad': setBad(prevState => prevState + 1);
         break;
       default: 
         break;
