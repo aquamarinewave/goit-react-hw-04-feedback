@@ -1,0 +1,9 @@
+.listFeedbackBtns {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.FeedbackBtn {
+  border-radius: 5px;
+}
